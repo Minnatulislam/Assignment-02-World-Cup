@@ -1,0 +1,139 @@
+/* common styles or utilities */
+body{
+    /* fonts */
+    font-family: 'Lato', sans-serif; 
+}
+/* Hero-Section start*/
+.top-banner{
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1222px;
+    height: 646px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.hero-title-info{
+    color: white;
+    padding-top: 80px;
+    padding-left: 110px;
+    padding-right:100px;
+}
+.hero-title-info h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.live-link-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.live-link-button:hover{
+    border: 2px solid #DD0000;
+    border-radius: 4px;
+    background-color: #161616;
+    color: #DD0000;
+
+}
+.hero-image img{
+    width: 520px;
+    height: 570px;
+    padding-top: 75px;
+    padding-right: 80px;
+}
+/* Hero-Section End*/
+/* ---------------------------------- */
+/* All matches area */
+.all-matches-area{
+    display: flex;
+    margin-top: 150px;
+}
+
+/* Upcomming Match,All Group and Blog */
+.blogs{
+    width: 200px;
+    height: 170px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 140px;
+}
+.upcomming{
+    text-align: center;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.all-group{
+    text-align: center;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.blog {
+    text-align: center;
+    height: 35px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.upcomming a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+}
+.all-group a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+}
+.blog a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+/*----------------------
+   live matches styles
+------------------------*/
+.live-matches{
+    display: grid;
+    grid-template-columns : repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-right: 140px;
+    padding-left: 30px;
+}
+.match .match-banner img{
+    width: 312px;
+    height: 175px;
+}
+.link-button-transfer {
+    text-decoration: none;
+    border: 2px solid rgb(145, 144, 144);
+    padding: 3px 10px;
+    
+}
+.link-button-transfer{
+    color: #161616;
+}
+.match-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-;
+}
+.match-info img{
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+}
+.match-info p{
+    height: 26px;
+    width: 26px;
+    padding-right: 20px;
+}
+  
+
