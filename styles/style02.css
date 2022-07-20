@@ -32,6 +32,10 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
 }
+.red-color{
+    color: #DD0000;
+}
+
 
 .live-link-button {
     text-decoration: none;
@@ -122,8 +126,6 @@ body {
     border: 2px solid #DD0000;
     border-radius: 4px;
     background-color: #161616;
-
-
 }
 
 /*----------------------
@@ -150,9 +152,6 @@ body {
 .match-banner h1{
     padding:0px 10px;
 }
-
-
-
 .match-banner img {
     width: 108px;
     height: 85px;
@@ -170,9 +169,6 @@ body {
     font-size: 14px;
     margin: 0px;
 }
-
-
-
 
 /*--------------------------
    footer section styles 
@@ -204,7 +200,7 @@ footer {
 }
 
 .footer-menu a:hover {
-    color: antiquewhite;
+    color: rgb(255, 0, 0);
 }
 
 .footer-menu :first-child {
@@ -223,7 +219,7 @@ footer {
 }
 
 .social-icon :hover {
-    color: tomato;
+    color: rgb(255, 0, 0);
     animation: step-start;
     transition: all 0.6s;
 }
