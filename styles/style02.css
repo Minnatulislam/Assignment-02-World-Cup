@@ -6,7 +6,6 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
-
 /*----------------------
   Hero-Section start
   ----------------------*/
@@ -19,14 +18,12 @@ body {
     margin-top: 50px;
     margin-left: 150px;
 }
-
 .hero-title-info {
     color: white;
     padding-top: 80px;
     padding-left: 110px;
     padding-right: 100px;
 }
-
 .hero-title-info h2 {
     font-size: 70px;
     font-weight: 700;
@@ -35,8 +32,6 @@ body {
 .red-color{
     color: #DD0000;
 }
-
-
 .live-link-button {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -44,50 +39,42 @@ body {
     padding: 10px 20px;
     border-radius: 4px;
 }
-
 .live-link-button:hover {
     border: 2px solid #DD0000;
     border-radius: 4px;
     background-color: #161616;
     color: #DD0000;
-
 }
-
 .hero-image img {
     width: 520px;
     height: 570px;
     padding-top: 75px;
     padding-right: 80px;
 }
-
-/* Hero-Section End*/
 /* ---------------------------------- */
 /* All matches area */
 .all-matches-area {
     display: flex;
-    margin-top: 150px;
+    margin-top: 120px;
 }
-
 /* -----------------------------------
   Upcomming Match,All Group and Blog 
  -------------------------------------*/
 .blogs {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
     background-color: #161616;
     border-radius: 10px;
     padding: 30px;
-    margin-left: 140px;
+    margin-left: 150px;
 }
-
 .upcomming {
     text-align: center;
     height: 35px;
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .all-group {
     text-align: center;
     height: 35px;
@@ -95,56 +82,48 @@ body {
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .blog {
     text-align: center;
     height: 35px;
-    background-color: #DD0000;
+    background-color: #ffffff;
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .upcomming a {
     text-decoration: none;
-    color: #161616;
+    color: #ffffff;
     font-weight: 700;
 }
-
+.upcomming:hover {
+    border: 2px solid #DD0000;
+    border-radius: 4px;
+    background-color: #161616;
+}
 .all-group a {
     text-decoration: none;
     color: #161616;
     font-weight: 700;
 }
-
 .blog a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
 }
-
-.blog:hover {
-    border: 2px solid #DD0000;
-    border-radius: 4px;
-    background-color: #161616;
-}
-
 /*----------------------
    live matches styles
 ------------------------*/
 .live-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-column-gap: 20px;
+    grid-gap: 22px;
+    grid-column-gap: 22px;
     padding-left: 30px;
 }
-
 .match {
-    width: px;
+    width: 260px;
     border: 1px solid rgb(215, 213, 213);
     border-radius: 10px;
     padding: 30px 20px;
-
 }
 .match-banner{
     display: flex; 
@@ -156,7 +135,6 @@ body {
     width: 108px;
     height: 85px;
 }
-
 .match-detail {
     text-align: center;
 }
@@ -164,12 +142,10 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .match-detail p{
     font-size: 14px;
     margin: 0px;
 }
-
 /*--------------------------
    footer section styles 
 ----------------------------*/
@@ -178,46 +154,61 @@ footer {
     height: 350px;
     margin-top: 100px;
 }
-
+.footer-title{
+    display: flex;
+}
 .footer-title h2 {
     color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-left: 660px;
 }
-
-.footer-title hr {
+/* ----footer animation styles -----*/
+.football {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 57%;
+    position: absolute; 
+    animation: football 1.5s linear infinite; 
+}
+@keyframes football {
+    0% {     
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+footer hr {
     width: 80%;
     margin-bottom: 20px;
 }
-
 .footer-menu a {
     color: rgb(112, 109, 109);
     text-decoration: none;
     font-size: 16px;
     margin-left: 50px;
 }
-
 .footer-menu a:hover {
     color: rgb(255, 0, 0);
 }
-
 .footer-menu :first-child {
     margin-left: 350px;
 }
-
+/*----------------------
+  Social icon styles
+------------------------ */
 .social-icon {
-    margin-left: 660px;
+    margin-left: 640px;
 }
-
 .social-icon .fa-brands {
     margin-top: 25px;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 20px;
 }
-
 .social-icon :hover {
     color: rgb(255, 0, 0);
     animation: step-start;

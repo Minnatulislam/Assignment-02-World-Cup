@@ -6,7 +6,6 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
-
 /*----------------------
   Hero-Section start
   ----------------------*/
@@ -19,14 +18,12 @@ body {
     margin-top: 50px;
     margin-left: 150px;
 }
-
 .hero-title-info {
     color: white;
     padding-top: 80px;
     padding-left: 110px;
     padding-right: 100px;
 }
-
 .hero-title-info h2 {
     font-size: 70px;
     font-weight: 700;
@@ -35,7 +32,6 @@ body {
 .red-color{
     color: #DD0000;
 }
-
 .live-link-button {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -43,30 +39,24 @@ body {
     padding: 10px 20px;
     border-radius: 4px;
 }
-
 .live-link-button:hover {
     border: 2px solid #ff0000;
     border-radius: 4px;
     background-color: #161616;
     color: #ff0000;
-
 }
-
 .hero-image img {
     width: 520px;
     height: 570px;
     padding-top: 75px;
-    padding-right: 80px;
+    margin-right: 80px;
 }
-
-/* Hero-Section End*/
 /* ---------------------------------- */
 /* All matches area */
 .all-matches-area {
     display: flex;
-    margin-top: 150px;
+    margin-top: 130px;
 }
-
 /* -----------------------------------
   Upcomming Match,All Group and Blog 
  -------------------------------------*/
@@ -75,10 +65,9 @@ body {
     height: 170px;
     background-color: #161616;
     border-radius: 10px;
-    padding: 30px;
-    margin-left: 140px;
+    padding: 35px;
+    margin-left: 150px;
 }
-
 .upcomming {
     text-align: center;
     height: 35px;
@@ -86,7 +75,6 @@ body {
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .all-group {
     text-align: center;
     height: 35px;
@@ -94,7 +82,6 @@ body {
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .blog {
     text-align: center;
     height: 35px;
@@ -102,97 +89,77 @@ body {
     border-radius: 5px;
     padding-top: 10px;
 }
-
 .upcomming a {
     text-decoration: none;
     color: #161616;
     font-weight: 700;
 }
-
 .all-group a {
     text-decoration: none;
     color: #161616;
     font-weight: 700;
 }
-
 .blog a {
     text-decoration: none;
     color: white;
     font-weight: 700;
 }
-
 .blog:hover {
     border: 2px solid #ff0000;
     border-radius: 4px;
     background-color: #161616;
-
-
 }
-
 /*----------------------
    live matches styles
 ------------------------*/
 .live-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-
+    grid-gap: 22px;
     padding-left: 30px;
 }
-
 .match {
-    width: 305px;
+    width: 300px;
     border: 1px solid rgb(215, 213, 213);
     border-radius: 10px;
-
 }
-
 .match .match-banner img {
     width: 305px;
     height: 175px;
 }
-
 .match-detail {
     padding-top: 15px;
     padding-left: 10px;
 }
-
 .link-button-transfer {
     text-decoration: none;
     border: 2px solid rgb(145, 144, 144);
     border-radius: 4px;
     padding: 3px 10px;
 }
-
 .link-button-transfer:hover {
     background-color: rgb(8, 8, 8);
     border: 2px solid rgb(14, 14, 14);
     border-radius: 4px;
     color: #ffffff;
 }
-
 .link-button-transfer {
     color: #161616;
 }
-
 .match-info {
     display: flex;
     align-items: center;
-
 }
-
 .match-info img {
     height: 24px;
     width: 24px;
     padding-right: 10px;
 }
-
 .match-info p {
     height: 26px;
     width: 26px;
     padding-right: 20px;
 }
-
 /*--------------------------
    footer section styles 
 ----------------------------*/
@@ -201,48 +168,71 @@ footer {
     height: 350px;
     margin-top: 100px;
 }
-
+.footer-title{
+    display: flex;
+}
 .footer-title h2 {
     color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-left: 660px;
 }
-
-.footer-title hr {
+/* ----footer animation styles -----*/
+.football {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 57%;
+    position: absolute; 
+    animation: football 1.5s linear infinite; 
+}
+@keyframes football {
+    0% {     
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+footer hr {
     width: 80%;
     margin-bottom: 20px;
 }
-
 .footer-menu a {
     color: rgb(112, 109, 109);
     text-decoration: none;
     font-size: 16px;
     margin-left: 50px;
 }
-
 .footer-menu a:hover {
     color: rgb(255, 0, 0);
 }
-
 .footer-menu :first-child {
     margin-left: 350px;
 }
-
+/*-------- Social icon styles------- */
 .social-icon {
-    margin-left: 660px;
+    margin-left: 640px;
 }
-
 .social-icon .fa-brands {
     margin-top: 25px;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 20px;
 }
-
 .social-icon :hover {
     color: rgb(255, 0, 0);
     animation: step-start;
     transition: all 0.6s;
+}
+/* ---------------------------
+Responsive for mobile views 
+-----------------------------*/
+
+@media screen and (max-width:576px){
+    .top-banner{
+       
+    }
+    
 }
